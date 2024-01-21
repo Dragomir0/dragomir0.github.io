@@ -767,13 +767,21 @@ section {
 /*--------------------------------------------------------------
 # Portfolio Section
 --------------------------------------------------------------*/
-
 .portfolio-container {
   display: flex;
   flex-wrap: wrap;
 }
 
-.portfolio-container .portfolio-item {
-  flex-basis: 50%;
-  /* Adjust padding and margin as needed */
+.portfolio .portfolio-item {
+  flex-basis: 50%; 
+  width: auto; 
+  height: auto; 
+  margin-bottom: 30px;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .portfolio .portfolio-item {
+    flex-basis: 100%;
+  }
 }
