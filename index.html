@@ -1,242 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+<html prefix="og: https://ogp.me/ns#">
 
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title>Dragomir Mihai</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-
-  <!-- Google Fonts -->
-  <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-    rel="stylesheet">
-
-  <!-- CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-  <link href="assets/css/style.css" rel="stylesheet">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta name="author" content="dragomir">
+	<title>dragomir's webpage</title>
+	<meta name="og:type" content="website" />
+	<meta name="og:title" content="dragomir's webpage">
+	<link rel="shortcut icon" type="image/ico" href="/img/favicon.ico" />
+	<link rel="shortcut icon" type="image/png" href="/img/favicon.png" />
+	<link rel="stylesheet" type="text/css" href="/css/style.css" />
+	<script src="/js/stylePicker.js"></script>
+	<link rel="stylesheet" type="text/css" href="/css/font_ibm.css" id="font_stylesheet" />
 </head>
 
-<body>
+<body bgcolor="#181818" text="#eeeeee">
+	<div id="header">
+		<div id="header_left">
+			<a href="/">
+				<img src="/img/bike.jpg" alt="Vstrom 650" title="Vstrom!">
+			</a>
+		</div>
+		<div id="header_right">
+			<h1>dragomir's webpage</h1>
+			<ul>
+				<li class="menuitem"><a href="index.html">Main</a></li>
+				<li class="menuitem"><a href="weblog.html">Weblog</a></li>
+			</ul>
+		</div>
+		<div id="style_picker">
+			Pick-a-font:<br>
+			<label for="font_ibm">IBM VGA8</label>
+			<input type="radio" name="font" id="font_ibm" checked><br>
+			<label for="font_mono">Monospace</label>
+			<input type="radio" name="font" id="font_mono"><br>
+			<label for="font_chinacat">Chinacat</label>
+			<input type="radio" name="font" id="font_chinacat"><br>
+			<label for="font_sansserif">Sans-serif</label>
+			<input type="radio" name="font" id="font_sansserif">
+		</div>
+	</div>
+	<div id="content">
 
-  <!-- ======= Mobile nav toggle button ======= -->
-  <i class="bi bi-list mobile-nav-toggle d-lg-none"></i>
-  <!-- ======= Header ======= -->
-  <header id="header" class="d-flex flex-column justify-content-center">
+		<h3>about me</h3>
+		<p>
+			Segmentation Fault (core dumped)
+		</p>
+		<p> I'm software developer, currently still studying CS. </p>
+		<p>In addition to coding, I enjoy
+			riding my VStrom 650 🏍️ and learning Japanese in my free time.
+		</p>
 
-    <nav id="navbar" class="navbar nav-menu">
-      <ul>
-        <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-        <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>À propos de moi</span></a></li>
-        <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-        <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a>
-        </li>
-        <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Me contacter</span></a>
-        </li>
-      </ul>
-    </nav><!-- .nav-menu -->
+		<h3>projects</h3>
+		<p>
+			Currently, I host most of my code-related stuff on my <a href="https://github.com/Dragomir0">GitHub</a>.
+			Below is a random selection of projects that I deemed "cool":
+		<ol>
+			<li><a href="https://github.com/Dragomir0/SakuraReads">SakuraReads</a>, Japanese book review website <a href="http://tenere.pythonanywhere.com/"> Link</a></li>
+			<li><a href="https://github.com/Dragomir0/ThaiToAPI">ThaiToAPI</a>, Thai syllable converter</li>
+			<li><a href="https://github.com/Dragomir0/MotzkinPath">MotzkinMaker</a>, SVG creator based on given arguments</li>
+		</ol>
+		</p>
+		<h3>contact / socials</h3>
+		<ul>
+			<li>e-mail <a href="mailto:dragomirm2001@gmail.com">@sdomi.pl</a>
+				(also grab my <a href="dragomir.asc"> PGP key</a>) | 
+				<a href="https://www.linkedin.com/in/dragomir-mihai" class="linkedin"><span class="linkedin-icon"></span> Linkedin</a> 
+			</li>
+		</ul>
 
-  </header><!-- End Header -->
-
-  <!-- ======= Profile Section ======= -->
-  <section id="hero" class="d-flex flex-column justify-content-center">
-    <div class="container" data-aos="zoom-in" data-aos-delay="100">
-      <h1>Dragomir Emilian Mihai</h1>
-      <p>I'm a <span class="typed" data-typed-items="Software Developer"></span></p>
-      <div class="social-links">
-        <a href="https://github.com/Dragomir0" class="github" target="_blank">
-          <i class="bx bxl-github"></i> </a>
-        <a href="https://www.linkedin.com/in/dragomir-mihai" class="linkedin" target="_blank">
-          <i class="bx bxl-linkedin"></i></a>
-      </div>
-    </div>
-  </section>
-  <!-- End Profile Section -->
-
-  <main id="main">
-
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-      <div class="container" data-aos="fade-up">
-        <div class="section-title">
-          <h2>À propos de moi</h2>
-          <p>Je suis Dragomir, un développeur de logiciels avec une expertise en développement
-            web. Je suis actuellement étudiant en informatique à l'Université du Québec à Montréal. La passion de créer
-            et d'innover a toujours été en moi. Je m'efforce de construire des logiciels de qualité, propres, intuitifs
-            et robustes avec attention et réflexion. Outre le codage, j'aime faire de la moto, apprendre le japonais et
-            jouer de la batterie.</p>
-        </div>
-      </div>
-    </section><!-- End About Section -->
-
-    <!-- ======= Resume Section ======= -->
-    <section id="resume" class="resume">
-      <div class="container" data-aos="fade-up">
-        <div class="section-title">
-          <h2>Resume</h2>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-6">
-
-            <h3 class="resume-title">Éducation</h3>
-            <div class="resume-item">
-              <h4>Baccalauréat en informatique et génie logiciel</h4>
-              <h5>Jan 2023 - Mai 2026</h5>
-              <p><em>Université du Québec à Montréal</em></p>
-              <p>Cours Pertinents: Java POO, Programmation Web, Structure de données et algorithmes C++ (En cours)</p>
-            </div>
-            <div class="resume-item">
-              <h4>DEC Technologie de l'électronique - Réseaux et Télécommunications</h4>
-              <h5>Août 2019 - Déc 2022</h5>
-              <p><em>Collège Ahuntsic</em></p>
-              <p>Acquis des compétences en conception de circuits électroniques, configuration et maintenance
-                d'équipements en télécommunications, ainsi qu'en configuration matérielle et logicielle de serveurs, y
-                compris la virtualisation.</p>
-            </div>
-          </div>
-
-          <div class="col-lg-6">
-            <h3 class="resume-title">Expérience professionelle</h3>
-            <div class="resume-item">
-              <h4>Technicien de test électronique RF</h4>
-              <h5>Juin 2021 - Dec 2022</h5>
-              <p><em>Fime Inc.</em></p>
-              <ul>
-                <li>Conduit des sessions de test rigoureuses pour des appareils de paiement (comme Clover, Square,
-                  Verifone), en assurant la conformité aux normes industrielles ISO 17025 et aux exigences spécifiques
-                  des clients.</li>
-                <li>Collaboré avec les clients lors des sessions de QA pour des projets RF dans nos bureaux ou sur leurs
-                  sites.</li>
-                <li>Préparé des rapports détaillés de certification et d'assurance qualité, facilitant la compréhension
-                  technique pour les clients et les organismes de réglementation
-                  (MasterCard / Visa).</li>
-                <li>Calibré le matériel et l'environnement du laboratoire de test pour garantir la fiabilité de tests,
-                  des certifications et ainsi des audits.</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-
-  </main>
-
-  </section><!-- End Resume Section -->
-
-  <!-- ======= Portfolio Section ======= -->
-  <section id="portfolio" class="portfolio section-bg">
-    <div class="container" data-aos="fade-up">
-      <div class="section-title">
-        <h2>Portfolio</h2>
-      </div>
-
-      <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-        <!-- First Row -->
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-              <a href="http://tenere.pythonanywhere.com/" target="_blank">
-                <img src="assets/img/portfolio/SakuraReads.png" class="img-fluid" alt="website screenshot">
-              </a>
-          </div>
-        </div>
-
-        <!-- Second Row -->
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-              <a href="https://github.com/Dragomir0/MotzkinPath" target="_blank">
-                <img src="assets/img/portfolio/motzkin.png" class="img-fluid" alt="motzkin path image">
-              </a>
-            </div>
-          </div>
-
-          <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-              <a href="https://github.com/Dragomir0/ThaiToAPI" target="_blank">
-                <img src="assets/img/portfolio/thai.jpg" class="img-fluid" alt="thai character image">
-              </a>
-            </div>
-          </div>
-
-        </div>
-      </div>
-  </section>
-
-  <!-- End Portfolio Section -->
-
-  <!-- ======= Contact Section ======= -->
-  <section id="contact" class="contact">
-    <div class="container" data-aos="fade-up">
-
-      <div class="section-title">
-        <h2>me contacter</h2>
-      </div>
-
-      <div class="row justify-content-center mt-1">
-        <div class="col-lg-6 text-center">
-          <p>Envoyez-moi un message aux coordonnées ci-dessous et je vous répondrai dès que possible.</p>
-        </div>
-      </div>
-
-      <div class="row justify-content-center mt-1">
-        <div class="col-lg-6">
-          <div class="info d-flex justify-content-between">
-            <div class="email">
-              <i class="bi bi-envelope"></i>
-              <h4>Email:</h4>
-              <p>dragomirm2001@gmail.com</p>
-            </div>
-            <div class="phone">
-              <i class="bi bi-phone"></i>
-              <h4>Appeler:</h4>
-              <p>438-408-3533</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End Contact Section -->
-
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="container">
-      <div class="social-links">
-        <a href="#" class="twitter"><i class="bx bxl-github"></i></a>
-        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-      </div>
-      <div class="copyright">
-        Designed & Built with ❤️ by Dragomir Mihai © 2023
-      </div>
-    </div>
-  </footer><!-- End Footer -->
-
-  <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
-
-  <!-- JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.umd.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-
-  <script src="assets/js/main.js"></script>
+		<hr>
+		<div id="footer">
+			<span>&copy; dragomir 2023-2024, licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA</a>
+			<div id="badge"><img src="/img/badge/linux.png"></a><img src="/img/badge/thinkpad.png"></div>
+		</div>
+	</div>
+	<script src="/js/fixBadlyRenderedFonts.js"></script>
 </body>
 
 </html>

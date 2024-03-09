@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "chinacat";
+    src: url('/css/chinacat.woff') format('woff');
+    src: url('/css/chinacat.ttf') format('truetype');
+    font-weight: normal;
+}
+
+body {
+	line-height: 1.4;
+	font-family: 'chinacat';
+	font-size: 15px;
+}
+
+pre, .kana, .blog > h1,h2,h3,h4,h5, small, .haruhi > h3 {
+    font-family: 'chinacat';
+    text-align: start;
+}
+
+code {
+	font-family: monospace;
+	font-size: 15px;
+}
+
+h3 {
+	font-size: 28px;
+	margin-top: 28px;
+}
+
+h4, h5 {
+	margin-bottom: 0;
+	font-size: 20px;
+}
