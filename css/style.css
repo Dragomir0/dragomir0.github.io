@@ -14,11 +14,16 @@ body {
     padding: 15px 15px 30px 15px;
 }
 
-#badge > img, #badge > a > img {
-	image-rendering: pixelated;
+#badge>img,
+#badge>a>img {
+    image-rendering: pixelated;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-weight: initial;
 }
 
@@ -37,7 +42,8 @@ h3 {
     margin: 15px 0 5px 0;
 }
 
-h4,h5 {
+h4,
+h5 {
     font-size: 16px;
 }
 
@@ -49,10 +55,11 @@ h4,h5 {
 }
 
 #header_left {
-    float:left;
-    text-align:center;
+    float: left;
+    text-align: center;
 }
-#header_left > a > img {
+
+#header_left>a>img {
     width: 180px;
     box-shadow: 5px 5px #555;
     text-align: center;
@@ -91,20 +98,25 @@ h4,h5 {
 }
 
 #style_picker {
-	position: absolute;
-	width: 160px;
-	height: 32px;
-	top: 8px;
-	right: 8px;
-	text-align: right;
+    position: absolute;
+    width: 160px;
+    height: 32px;
+    top: 8px;
+    right: 8px;
+    text-align: right;
 }
 
-a, a:hover, a:active, a:visited {
+a,
+a:hover,
+a:active,
+a:visited {
     text-decoration: none;
-    color: #1a1;
-}
-a:hover, a:active {
     color: #1c1;
+}
+
+a:hover,
+a:active {
+    color: #1f1;
 }
 
 hr {
@@ -113,17 +125,19 @@ hr {
     border: 0;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
     -webkit-box-sizing: inherit;
     -moz-box-sizing: inherit;
     box-sizing: inherit;
 }
 
-ol > li {
+ol>li {
     list-style-type: decimal-leading-zero;
 }
 
-ul > li {
+ul>li {
     list-style-type: square;
 }
 
@@ -135,10 +149,10 @@ ul {
 
 ol {
     margin-top: 0;
-    margin-bottom:0;
+    margin-bottom: 0;
 }
 
-li > a > img {
+li>a>img {
     margin: 5px 10px 0 0;
 }
 
@@ -159,8 +173,10 @@ code {
 }
 
 @media (min-width: 769px) {
-    #content, #header {
-    	width: 769px;
+
+    #content,
+    #header {
+        width: 769px;
         max-width: 768px;
     }
 }
@@ -171,20 +187,26 @@ code {
         margin: 0;
         padding: 0;
     }
-    #header_right, #header_right > ul {
+
+    #header_right,
+    #header_right>ul {
         float: none;
         margin: 20px 0;
         padding: 0;
     }
+
     .menuitem {
         margin: 0 4px 0 4px;
         padding: 0;
     }
+
     #content {
         margin: 0;
         padding: 0;
     }
-    #footer, #badge {
+
+    #footer,
+    #badge {
         text-align: center;
         float: none;
         margin: 0;
@@ -197,6 +219,7 @@ code {
         opacity: 0;
         filter: blur(10px);
     }
+
     to {
         opacity: 1;
         filter: blur(0);
@@ -204,15 +227,25 @@ code {
 }
 
 .linkedin {
-    display: inline-block; 
-    text-decoration: none; 
-  }
-  
-  .linkedin-icon {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.linkedin-icon {
     display: inline-block;
     width: 12px;
     height: 12px;
     background-image: url('/img/badge/linkedin.png');
-    background-size: cover; 
-  }
-  
+    background-size: cover;
+}
+
+.book {
+    width: 30px;
+    height: 30px;
+}
+
+.book_cover {
+    width: 200px;
+    height: 300px;
+    background-size: cover;
+}
