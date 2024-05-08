@@ -1,6 +1,4 @@
-// a hack to make virtually any browser display the content properly independent of the screen width
-// Why, I love font rendering quirks too!
-
+// Fix fonts rendered badly on some devices
 window.addEventListener("resize", fixFonts);
 window.addEventListener("DOMContentLoaded", fixFonts);
 
@@ -38,3 +36,4 @@ function fixFonts() {
 		}
 	}
 }
+
