@@ -1,16 +1,40 @@
 ---
-title: "Project One"
-summary: "Lorem ipsum dolor sit amet"
-date: "Mar 18 2022"
+title: "FairBank"
+summary: "Banking Web Application"
+date: "May 12 2024"
 draft: false
 tags:
-- Astro
-- Javascript
+- React
 - Typescript
+- Django
 - Tailwind
-- SolidJs
+- SQLite
+- Axios
+- Zod
 demoUrl: https://astro-sphere-demo.vercel.app
-repoUrl: https://github.com/markhorn-dev/astro-sphere
+repoUrl: https://github.com/Alteernative/FairBank
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. Adipiscing enim eu turpis egestas pretium. Euismod elementum nisi quis eleifend quam adipiscing. In hac habitasse platea dictumst vestibulum. Sagittis purus sit amet volutpat. Netus et malesuada fames ac turpis egestas. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Varius sit amet mattis vulputate enim. Habitasse platea dictumst quisque sagittis. Integer quis auctor elit sed vulputate mi. Dictumst quisque sagittis purus sit amet.
+FairBank is a transparent web banking application, developed as part of the INM5151 course at UQAM. It offers an innovative and interest-free banking service platform.
+
+Implements a transaction system between users and session management using **Django**, with **Zod** for validations
+
+Uses a currency conversion service using an external API, allowing users to purchase currencies and asynchronously update balances with **Axios**
+
+**Frontend**
+- React
+- TypeScript
+- Shadcn UI
+- Tailwind CSS
+- React Router Dom
+- Axios
+- react-hook-form
+- zod
+- i18n
+
+**Backend**
+- Django
+- Django REST framework
+
+**Database**
+- Sqlite3
