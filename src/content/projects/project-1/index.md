@@ -7,11 +7,12 @@ tags:
 - React
 - Typescript
 - Django
-- Tailwind
+- Tailwind CSS
+- HTML
 - SQLite
 - Axios
 - Zod
-demoUrl: https://astro-sphere-demo.vercel.app
+demoUrl: https://github.com/Alteernative/FairBank
 repoUrl: https://github.com/Alteernative/FairBank
 ---
 
@@ -25,6 +26,7 @@ Uses a currency conversion service using an external API, allowing users to purc
 - React
 - TypeScript
 - Shadcn UI
+- HTML
 - Tailwind CSS
 - React Router Dom
 - Axios

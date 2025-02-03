@@ -1,8 +1,8 @@
 ---
 company: "Fime"
 role: "RF Electronic Test Technician"
-dateStart: "01/06/2021"
-dateEnd: "20/12/2022"
+dateStart: "06/01/2021"
+dateEnd: "12/20/2022"
 ---
 
 - Led performance testing sessions for payment devices (Apple, Clover, Square, Verifone) in compliance with ISO 17025 standards and specific testing requirements.

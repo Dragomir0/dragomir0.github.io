@@ -1,8 +1,8 @@
 ---
 company: "Ville de Montréal"
 role: "IT Analyst Intern"
-dateStart: "07/01/2025"
-dateEnd: "24/4/2025"
+dateStart: "01/07/2025"
+dateEnd: "4/24/2025"
 ---
 
 - Power Automate
