@@ -55,6 +55,11 @@ export default {
           },
         },
       },
+      letterSpacing: {
+        extra: "0.1em",
+        wider: "0.05em",
+      },
+
     },
   },
   plugins: [require("@tailwindcss/typography")],
